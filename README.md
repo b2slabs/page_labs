@@ -1,5 +1,13 @@
 https://github.com/gitname/react-gh-pages
+need to add in `vite.config.ts`:
+```typescript
+export default defineConfig({
+  plugins: [react()],
+  base: "/page_labs/"
+})
+```
 
+```npm run dev```
 
 # React + TypeScript + Vite
 
